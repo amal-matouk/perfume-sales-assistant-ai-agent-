@@ -55,7 +55,7 @@ Conversation history is stored in **SQLite**.
 
 │
 ├── data/
-│   └── perfumes.json       # Source perfume knowledge
+│   └── perfumes.json       # Source perfume knowledge (synthetic dataset generated with ChatGPT)
 │
 ├── app.py                  # FastAPI application
 │── database.py         # SQLAlchemy database
