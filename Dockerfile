@@ -1,31 +1,25 @@
-# Use an official Python runtime as a parent image
 FROM python:3.11-slim
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Set environmental variables
-# 1. Prevents Python from writing .pyc files to disc
-# 2. Ensures console output is sent straight to terminal (useful for logs)
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
+# Pass the API Key during the build process to create embeddings
+ARG OPENAI_API_KEY
+ENV OPENAI_API_KEY=$OPENAI_API_KEY
 
-# Install system dependencies (needed for FAISS and SQLite)
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy the requirements file into the container
+# Install dependencies
 COPY requirements.txt .
-
-# Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of your application code into the container
+# Copy all project files
 COPY . .
 
-# Expose port 8000 for FastAPI
+# 1. Build the FAISS Vector Database (Creates the 'faiss_index' folder)
+RUN python core/buil_vector_db.py
+
+# 2. Initialize the SQLite Database (Creates 'chat_memory.db' and the 'chat_history' table)
+RUN python core/database.py
+
 EXPOSE 8000
 
-# Command to run the application
+# Start the FastAPI app
 CMD ["python", "app.py"]
