@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Dior Sauvage",
+    "category": "Fresh / Spicy",
+    "profile": "fresh spicy scent",
+    "notes": ["bergamot", "ambroxan", "pepper"],
+    "longevity": "very long lasting",
+    "projection": "strong",
+    "character": "versatile",
+    "occasion": ["casual", "evening"],
+    "price": "90-150"
+  },
+  {
+    "name": "Dior Sauvage Elixir",
+    "category": "Fresh / Spicy",
+    "profile": "spicy aromatic",
+    "notes": ["cinnamon", "lavender", "licorice"],
+    "longevity": "extremely long lasting",
+    "projection": "very strong",
+    "character": "bold and intense",
+    "occasion": ["night"],
+    "price": "140-180"
+  },
+  {
+    "name": "Bleu de Chanel EDT",
+    "category": "Woody / Aromatic",
+    "profile": "woody aromatic",
+    "notes": ["citrus", "incense"],
+    "character": "clean and fresh",
+    "longevity": "moderate",
+    "projection": "moderate",
+    "occasion": ["office"],
+    "price": "100-140"
+  },
+  {
+    "name": "Bleu de Chanel EDP",
+    "category": "Woody / Aromatic",
+    "profile": "woody aromatic",
+    "notes": ["incense", "amber"],
+    "character": "elegant and refined",
+    "longevity": "long lasting",
+    "projection": "moderate",
+    "occasion": ["office", "evening"],
+    "price": "120-160"
+  },
+  {
+    "name": "Bleu de Chanel Parfum",
+    "category": "Woody / Aromatic",
+    "profile": "deep woody",
+    "notes": ["sandalwood", "incense"],
+    "character": "creamy and smooth",
+    "longevity": "very long lasting",
+    "projection": "strong",
+    "occasion": ["formal", "evening"],
+    "price": "140-180"
+  },
+  {
+    "name": "YSL Y EDT",
+    "category": "Sweet / Youthful",
+    "profile": "fresh sweet",
+    "notes": ["apple", "ginger"],
+    "character": "youthful and energetic",
+    "longevity": "moderate",
+    "projection": "moderate",
+    "occasion": ["casual"],
+    "price": "80-120"
+  },
+  {
+    "name": "YSL Y EDP",
+    "category": "Sweet / Youthful",
+    "profile": "sweet fresh",
+    "notes": ["apple", "sage", "amberwood"],
+    "character": "youthful and modern",
+    "longevity": "long lasting",
+    "projection": "strong",
+    "occasion": ["casual", "evening"],
+    "price": "85-140"
+  },
+  {
+    "name": "YSL Y Parfum",
+    "category": "Sweet / Youthful",
+    "profile": "sweet woody",
+    "notes": ["apple", "incense"],
+    "character": "richer and darker",
+    "longevity": "very long lasting",
+    "projection": "strong",
+    "occasion": ["night"],
+    "price": "120-160"
+  },
+  {
+    "name": "Terre d’Hermès EDT",
+    "category": "Woody / Elegant",
+    "profile": "woody earthy",
+    "notes": ["orange", "vetiver", "mineral notes"],
+    "character": "mature and elegant",
+    "longevity": "long lasting",
+    "projection": "moderate",
+    "occasion": ["daytime", "office"],
+    "price": "90-140"
+  },
+  {
+    "name": "Terre d’Hermès Parfum",
+    "category": "Woody / Elegant",
+    "profile": "woody earthy",
+    "notes": ["vetiver", "oakmoss"],
+    "character": "deeper and richer",
+    "longevity": "very long lasting",
+    "projection": "strong",
+    "occasion": ["formal"],
+    "price": "120-160"
+  },
+  {
+    "name": "Acqua di Giò EDT",
+    "category": "Fresh / Aquatic",
+    "profile": "fresh aquatic",
+    "notes": ["citrus", "marine notes"],
+    "character": "clean and light",
+    "longevity": "moderate",
+    "projection": "moderate",
+    "occasion": ["summer"],
+    "price": "70-120"
+  },
+  {
+    "name": "Acqua di Giò Profumo",
+    "category": "Fresh / Aquatic",
+    "profile": "aquatic woody",
+    "notes": ["incense", "patchouli"],
+    "character": "elegant and masculine",
+    "longevity": "long lasting",
+    "projection": "strong",
+    "occasion": ["office", "evening"],
+    "price": "110-160"
+  },
+  {
+    "name": "Acqua di Giò Profondo",
+    "category": "Fresh / Aquatic",
+    "profile": "aquatic aromatic",
+    "notes": ["marine notes", "rosemary"],
+    "character": "modern and fresh",
+    "longevity": "long lasting",
+    "projection": "strong",
+    "occasion": ["summer", "casual"],
+    "price": "100-150"
+  },
+  {
+    "name": "Jean Paul Gaultier Le Male",
+    "category": "Sweet / Gourmand",
+    "profile": "sweet spicy",
+    "notes": ["vanilla", "lavender"],
+    "character": "warm and playful",
+    "longevity": "long lasting",
+    "projection": "strong",
+    "occasion": ["evening"],
+    "price": "80-130"
+  },
+  {
+    "name": "Jean Paul Gaultier Le Male Le Parfum",
+    "category": "Sweet / Gourmand",
+    "profile": "sweet vanilla",
+    "notes": ["cardamom"],
+    "character": "creamy and intense",
+    "longevity": "very long lasting",
+    "projection": "strong",
+    "occasion": ["night"],
+    "price": "110-150"
+  },
+  {
+    "name": "Creed Aventus",
+    "category": "Luxury / Niche",
+    "profile": "fruity woody",
+    "notes": ["pineapple", "birch"],
+    "character": "smoky and luxurious",
+    "longevity": "long lasting",
+    "projection": "strong",
+    "occasion": ["signature", "evening"],
+    "price": "250-350"
+  },
+  {
+    "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
+    "category": "Luxury / Niche",
+    "profile": "amber woody",
+    "notes": ["saffron", "jasmine"],
+    "character": "luxury niche fragrance",
+    "longevity": "extremely long lasting",
+    "projection": "very strong",
+    "occasion": ["evening", "formal"],
+    "price": "300-400"
+  },
+  {
+    "name": "Armaf Club de Nuit Intense Man",
+    "category": "Budget-Friendly",
+    "profile": "fruity smoky",
+    "notes": ["pineapple", "birch"],
+    "character": "budget alternative to Aventus",
+    "longevity": "long lasting",
+    "projection": "strong",
+    "occasion": ["evening", "casual"],
+    "price": "40-70"
+  },
+  {
+    "name": "Lattafa Asad",
+    "category": "Budget-Friendly",
+    "profile": "sweet spicy",
+    "notes": ["vanilla", "amber"],
+    "character": "inspired by Sauvage Elixir",
+    "longevity": "very long lasting",
+    "projection": "strong",
+    "occasion": ["night"],
+    "price": "30-60"
+  }
+]
