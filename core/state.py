@@ -14,5 +14,6 @@ class SalesState(TypedDict):
     recommendation: str
     comparison: str
     pricing: str
-    final_response: str # The combined final message
+    final_response: str 
+
     memory: str
