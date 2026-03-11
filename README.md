@@ -2,7 +2,7 @@
 
 An **AI-powered perfume recommendation agent** built with **LangGraph, RAG, FastAPI, and FAISS**.
 
-The system acts as a ** perfume sales assistant** that can:
+The system acts as a ** luxury perfume sales assistant** that can:
 
 * Understand customer preferences
 * Retrieve perfume knowledge using vector search
