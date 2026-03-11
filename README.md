@@ -1,4 +1,4 @@
-# 🌸 AI Perfume Sales Assistant
+# # AI Perfume Sales Assistant
 
 An **AI-powered perfume recommendation agent** built with **LangGraph, RAG, FastAPI, and FAISS**.
 
