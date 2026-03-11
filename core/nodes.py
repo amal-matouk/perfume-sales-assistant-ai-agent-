@@ -2,6 +2,7 @@ from langchain_openai import ChatOpenAI
 from core.vectorstore import vectorstore
 from core.state import SalesState, ExtractionResult
 
+
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 
@@ -57,4 +58,5 @@ def pricing_and_comparison(state: SalesState):
     Combine this with the previous recommendation: {state['recommendation']}
     """
     response = llm.invoke(prompt)
+
     return {"final_response": response.content}
